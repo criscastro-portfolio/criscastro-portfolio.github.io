@@ -339,7 +339,7 @@ footer {
   gap: 0.5rem;
   height: max-content;
 }
-.card_form1, .card_form2 {
+.card_form1, .card_form2, .card_form3, .card_form4, .card_form5, .card_form6 {
   position: relative;
   width: 20em;
   height: 15em;
@@ -347,19 +347,44 @@ footer {
   transition: 0.2s ease-in-out;
   overflow: hidden;
 }
-.card_form1
+.card_form1 /* Project1*/
 {
   background-image: url(assets/project_1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card_form2
+.card_form2 /* Project2*/
 {
   background-image: url(assets/project_2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card_form1 span, .card_form2 span {
+
+.card_form3 /* Project3*/
+{
+  background-image: url(assets/project_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card_form4 /* Project4*/
+{
+  background-image: url(assets/project_4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card_form5 /* Project5*/
+{
+  background-image: url(assets/project_5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card_form6 /* Project6*/
+{
+  background-image: url(assets/project_6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card_form1 span, .card_form2 span, .card_form3 span, .card_form4 span, .card_form5 span, .card_form6 span {
   font-size: 1.5em;
   position: absolute;
   inset: 0;
@@ -373,7 +398,7 @@ footer {
   opacity: 0;
   transition: all 0.2s ease-in-out;
 }
-.card:hover .card_form1 span, .card:hover .card_form2 span,
+.card:hover .card_form1 span, .card:hover .card_form2 span, .card:hover .card_form3 span, .card:hover .card_form4 span, .card:hover .card_form5 span, .card:hover .card_form6 span,
 .card:hover .card_data span {
   opacity: 1;
 }
